@@ -1,0 +1,140 @@
+\documentclass[oneside,masters,bibliography=totoc]{CooperEE}
+  \usepackage[pdftex]{graphicx}
+  \usepackage{subcaption}
+  \title{Detection of Maliciously Authored News Articles}
+  
+
+\usepackage{fancyhdr}
+
+\fancyfoot[C]{{\textbf{\thepage}}}
+\pagestyle{fancy}
+
+
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \renewcommand{\headrulewidth}{0pt}
+    \cfoot{\textbf{\thepage}}
+}
+
+
+\renewcommand{\chaptermark}[1]{ \markboth{}{\thechapter.  #1} } % Add Chapter # and chapter title to header -- should only add it if section mark isnt already there
+
+\renewcommand{\sectionmark}[1]{\markright{\thesection \ \ #1}}
+
+\usepackage[margin=0.3in,labelfont=bf,labelsep=none]{caption}
+ \DeclareCaptionFormat{suggested}{\singlespace#1#2 #3\par\doublespace}
+ \captionsetup{format=suggested}
+
+\usepackage{cite}
+
+\usepackage{makeidx}
+\makeindex
+
+
+% Make proper left and right quotes
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+
+% ------------------------- 
+\Month{December} \Day{11} \Year{2017}
+\Author{Miraj Patel}
+
+\TitleTop{Detection of Maliciously}
+\TitleBottom{Authored News Articles}
+\Advisor{Dr. Carl Sable}
+\Dean{Dr. Richard J. Stock}
+\DeanTitle{Dean, School of Engineering}
+\ThesisDefenseDate{12/11/2017}
+
+\usepackage[bookmarksnumbered,pdfpagelabels=true,plainpages=false,
+            colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue,
+            pdfauthor={Miraj Patel},
+            pdftitle={Fake News Classification}]
+            {hyperref}
+% ------------------------- 
+
+
+\Abstract{
+   The 2016 U.S. presidential campaigns were rocked by various scandals, many of which were ignited by fake news articles that spread like wildfire on social media platforms like Facebook and Twitter.  When it came to light that many of these articles were purposefully constructed by foreign actors to influence the presidential election, it became apparent that social media platforms needed more safeguards to prevent individuals from deceiving the public for personal gain.
+   
+   This study attempts to fulfill this need by building an automated system capable of detecting the malicious content published during the 2016 presidential campaign season.  Using a set of articles flagged as false by Snopes, and a set of articles from leading news organizations, select machine learning algorithms (k-nearest neighbors, support vector machines, and long short-term memory networks) are trained using only each article's textual content.  Other instances of these models are also given the sentiment-related features of each article to take advantage of any possible correlation between the overall sentiment of an article and its factual accuracy.  The results of this study show that a long short-term memory network is capable of obtaining an overall accuracy and average F1-score of 90\% with this dataset.
+}
+
+\Acknowledgments{
+   First and foremost, I want to thank my advisor Carl Sable.  It was a great privilege to learn from him throughout my undergraduate and graduate careers at Cooper Union.  Without Dr. Sable's guidance and mentorship, this thesis would certainly not have been possible.
+   
+   I would also like to thank Cooper Union, and the Cooper Union community, for providing me with scholarships to pursue higher learning in these great halls.  I would also like to thank the Electrical Engineering Department and all the professors that have I have had the privilege to learn from throughout my academic career.
+   
+   I also want to thank Matthew Gentzkow and Chuan Yu for sharing their findings and shaping part of the dataset used in this study.   Lastly, I want to thank my friends and family who supported me throughout this journey.
+}
+
+\usepackage{titlesec}
+% Make the Chapter #: Chapter Name on same line
+\titleformat{\chapter}[hang] 
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter:}{1em}{} 
+% Decrease the padding between chapter titles
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+
+
+
+%\usepackage{hyperref}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+breaklinks=true,
+%linkcolor=black,
+urlcolor=black}
+
+\hypersetup{breaklinks=true}
+\urlstyle{same}
+
+
+\begin{document}
+
+% ------------------------- 
+% no need to modify
+ \frontmatter
+ \makepreliminarypages
+ \singlespace
+ \tableofcontents
+ \clearemptydoublepage
+ \listoffigures
+ \clearemptydoublepage
+ \doublespace
+ \mainmatter
+% ------------------------- 
+
+%For a file this big, you're better off using the \input command for individual chapters: http://www.tac.dk/cgi-bin/info2www?(latex)\input
+\input{chapter1}
+
+\input{chapter2}
+
+\input{chapter3}
+
+\input{chapter4}
+
+\input{chapter5}
+
+
+% Bibliography
+\input{bibliography}
+
+
+
+% Start labeling chapters with letters and calling them appendices
+\appendix
+
+%\chapter{Appendix Title}
+%\label{sec:appendixname}
+
+
+ % Make the index:
+ \cleardoublepage
+ \singlespace
+ \phantomsection
+ \addcontentsline{toc}{chapter}{Index}
+ \printindex
+ 
+
+\end{document}

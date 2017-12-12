@@ -1,0 +1,16 @@
+\chapter{Conclusion}
+
+\section{Discussion of Results}
+
+The top performing model is the LSTM that uses the word embedding representation of each article.  The LSTM's high average F1-score (0.90) indicates that the LSTM is adept at differentiating between credible and malicious articles.  The baseline SVM, which only used tf-idf weights of each document, also performed very well and obtained an overall F1-score of 0.88.  Interestingly, the addition of the sentiment analysis features adversely impacted the performance of the SVM, whereas the addition of these features improved the performance of the KNN system.
+
+The success of the LSTM in this study exemplifies the LSTM's ability to encapsulate some of the nuances ingrained in text.  Since the LSTM was only given the word embedding representation of each article, it does not rely sentiment or any other non-textual features.  Instead, the LSTM churns through text in the sequential order it was written, much like a human reader, and gives its prediction after all the content has been consumed.
+
+
+\section{Future Work}
+
+This study examines the feasibility of using well known machine learning algorithms to tackle the growing threat of fake news, by distinguishing between accurate, trustworthy information and malicious content.  Since this study focused only on the articles that surfaced during the United States' 2016 presidential campaign, the impact of the findings presented here may only be applicable to a small subset of misinformation that poses as fact online.  Further analysis needs to be done to see if the approaches presented in this study can be applied or modified to a broader range of domains.  Ideally, the algorithms, particularly the LSTM, are general enough to work with minimum adjustments, like retuning and retraining with a larger dataset that adequately reflects the new population.
+
+Another limitation of this study is its heavy reliance on articles tagged by Snopes.  Since the malicious corpus is comprised of articles identified as fake by only one source, the sampling methodology exhibits selection bias, even though Snopes itself is a credible arbitrator.  Therefore, future studies should incorporate articles with a greater consensus from accepted arbitrators, as well as expand their corpora with more recent news.
+
+This study sought to show that it is possible to create an unbiased system capable of filtering out fake, or maliciously written, news by using only the articles' content, and not any preconceived notions about the source.  More work still needs to be done improve the performance of the techniques used in this study, as well as the number of domains that these techniques can be applied to.  Lastly, future studies that tackle the surge of fake news should be beyond reproach.  To successfully diminish the effects of fake news injected into social media by malicious content creators, the system must be fair, robust, and always learning.
