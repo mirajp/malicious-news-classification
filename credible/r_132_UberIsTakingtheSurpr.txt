@@ -1,0 +1,17 @@
+Uber is promising "no math and no surprises."
+
+The ride hailing app announced in a blog post on Thursday it will soon let their passengers know how much their trip will actually cost before getting into a car.
+
+"Imagine buying an airline ticket without knowing the full fare until the end of your trip. Or booking a hotel room online and being told that the real price would be 1.3X. Yes, that sounds odd -- but it's what happens with many Uber trips today," the company said in its announcement.
+
+The ride hailing app's previous approach would give riders a fare estimate, which could sometimes differ from the actual fare, If surge pricing was in effect, an additional price multiplier could complicate the process for some riders.
+
+"Upfront fares are calculated using the expected time and distance of the trip and local traffic, as well as how many riders and nearby drivers are using Uber at that moment," the company said. "There's no complicated math and no surprises."
+
+Surge pricing during peak demand will still be in effect; however instead of a multiplier, passengers will be shown the total cost of the ride calculated to include the surge. A notice on the screen will let passengers know they're traveling during a busy time.
+
+Uber has been testing the new system over the past few months in New York City, Philadelphia, Miami, San Diego, Seattle and parts of New Jersey, as well as several locations in India. It's expected to roll out the new system globally in the coming months.
+
+The new pricing policy comes on the heels of the success of UberPOOL, a service that allows people to split the cost with another passenger going the same way.
+
+"Knowing how much a ride will cost in advance is clearly something riders appreciate: today uberPOOL accounts for over 20 percent of all rides globally," a company blog post said. "And we now want more riders globally to benefit from this feature."

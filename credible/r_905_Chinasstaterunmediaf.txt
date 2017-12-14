@@ -1,0 +1,45 @@
+
+
+President Obama and Chinese President Xi Jinping chat at the Annenberg Retreat at Sunnylands in Rancho Mirage, Calif., on June 8, 2013. (Jewel Samad/AFP/Getty Images)
+
+How do the 2016 U.S. elections appear outside the United States? The state-controlled Russian media clearly leans toward Republican nominee Donald Trump, who appears to admire President Vladimir Putin.
+
+But what about China's state-controlled media? Given Trump's frequent references to China as a major cause of U.S. job losses -- and his promises to get tough on trade pacts -- one might expect harsh reporting on Trump.
+
+[The U.S. has just accused Russia of hacking America's elections]
+
+To test this theory, I scraped China's leading state-affiliated print news media from May 1 to Oct. 24, looking for references to the two candidates and automatically coding whether nearby words indicated a positive or a negative tone. This exercise shows that official Chinese-language media leans somewhat toward "Hillary" (as the Democratic candidate is referred to in China) in terms of favorable mentions.
+
+Early this summer, Chinese state media covered Trump far more often than Hillary Clinton. But by this fall, the volume of coverage was nearly equal. There has been very little coverage of trade policies or economic implications for China. Instead, Chinese reporting tends to focus on scandals and missteps. This does not reflect a typical "horse-race" view of elections. Instead, as my ongoing research shows and some journalists point out, Chinese propaganda likes to emphasize the flaws of democracy as a political system.
+
+The graph below shows the volume of coverage for both candidates. In early May, state-run newspapers mentioned Trump five times as often as they mentioned Clinton. This imbalance has steadily declined. Currently, the candidates are mentioned with nearly identical frequency.
+
+Figure 1 -- Daily Chinese press coverage of U.S. presidential candidates -- Data: People's Daily Online -- Figure: Erin Baggott Carter -- Methodology: I focus on China's leading state-affiliated print news media: People's Daily, Xinhua, Global Times, Guangming Daily, and China Youth Daily. These sources published 1,457 articles between May 1 and October 24 containing the words "Trump (Te Lang Pu )," "Hillary (Xi La Li )," or "Clinton (Ke Lin Dun )." These sources frequently rerun stories from each other; I track the total volume of coverage. I collected the articles from the People's Daily website (http://www.people.com.cn), which contains content from all five sources. The archive contains no articles that mention either candidate from June 13-27. This is most likely a database error rather than censorship: The archive contains no articles on "Japan" either during this period. Chinese online archives frequently contain unexplained gaps.
+
+The next graph shows the editorial tone of coverage of Trump and Clinton. Since May, Chinese propaganda has consistently covered Clinton more favorably, although both candidates have become slightly less popular over time. Clinton's favorability rating started at 92 percent in May and declined to 77 percent in late October. Trump's favorability rating started at 79 percent in May and declined to 71 percent in late October.
+
+[Would Clinton or Trump be better at foreign policy? Here's what international relations scholars think.]
+
+Figure 2 -- Editorial tone of China's press coverage of U.S. elections -- Data: People's Daily Online, Figure: Erin Baggott Carter -- Methodology: To measure the editorial tone of Chinese propaganda, I examine 20-word segments centered upon references to "Trump" or "Hillary." By focusing on these short segments, I can isolate language that refers directly to each candidate. I use computational tools to count the number of positive and negative words in each segment. I then construct a measure of positive editorial tone: the number of positive words in the segment divided by the sum of the positive and negative words in the segment.
+
+China's state-run newspapers have said relatively little about the candidates' policies and their implications for U.S.-China relations. Instead, coverage has focused on scandals: Clinton's deleted emails and Trump's affinity for Vladimir Putin, his tax returns, and his relationships with women.
+
+Excluding generic campaign words and filler words, the most commonly used words about Clinton include "email," "investigation," "Russia," "FBI," "lawsuit," "Clinton Foundation," "scandal," "husband," and "women." The most commonly used words about Trump include "Russia," "Putin," "intraparty," "criticism," "immigrants," "tax payments," "slander," "New York," "magnate," "women" and "real estate."
+
+Why is Clinton getting better coverage?
+
+China's preference for Clinton over Trump is notable for two reasons. First, China has a tepid relationship with Clinton. In her first visit to Beijing in 1995, she refused to meet with senior leaders and criticized Chinese human rights practices, neither of which endeared her to her hosts. As secretary of state, she implemented the Obama administration's strategy of rebalancing toward Asia, which many in China interpreted as a move toward containment. After Clinton left the State Department, the China Daily wrote that she "always spoke with a unipolar voice and never appeared interested in the answers she got."
+
+[Is the U.S. media biased towards Clinton or Trump? Here's some actual hard data.]
+
+Second, it takes a lot for Chinese leaders to take China-bashing from U.S. presidential candidates seriously. They learned from Ronald Reagan, Bill Clinton and George W. Bush that U.S. presidents rarely enact the anti-China campaign platforms that help carry them to victory. For instance, as Mitt Romney ramped up his criticism of Chinese trade practices in 2012, China's Global Times speculated, "Is Romney's toughness toward China just a scam? ... His soft stance is only a matter of time."
+
+These two facts speak to the depths of Chinese concern about a Trump presidency. Despite China's historical antipathy toward Clinton and willingness to countenance tough campaign rhetoric, Chinese propaganda still favors Clinton over Trump.
+
+This is important because the American media has recently speculated that China, like Russia, may prefer a Trump presidency because it would lead the United States to withdraw from the world. Although there are doubtless some in the 88 million-member Chinese Communist Party who hold this view, China is far more integrated into the American financial system than Russia is and has commensurately larger stakes in U.S. economic stability.
+
+For instance, as the U.S. financial sector was unraveling in September 2008, Treasury Secretary Hank Paulson asked China not to sell Treasury bonds. China agreed, Paulson tells us in his memoirs, even though Russia invited China to weaken the American economy by dumping bonds in concert.
+
+Now, as was the case eight years ago, when forced to choose between global stability and relative gains over the United States, Chinese leaders prefer global stability. Although Trump offers China the enticing possibility of American withdrawal from the Asia-Pacific sphere, Chinese leaders have begrudgingly cast their lot with the devil they know. This is evident from the propaganda they control, which favors Clinton over Trump.
+
+Erin Baggott Carter is an assistant professor at the School of International Relations at the University of Southern California.

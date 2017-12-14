@@ -1,0 +1,47 @@
+Trump's most recent meeting includes AT&T. He has vocally opposed their merger with Time Warner. Get the lowdown on this and other tech policies he may gut. (Jhaan Elker/The Washington Post)
+
+President-elect Donald Trump could eviscerate some of the most significant tech policies of the 21st century, all but erasing President Obama's Internet agenda and undoing years of effort by lawmakers, tech companies and consumer advocates to limit the power of large, established corporations, analysts say.
+
+In particular danger are key initiatives of the Obama years, including net neutrality and a pivotal series of Internet privacy regulations that came along with it.
+
+"Net neutrality has a big target on its back," said Robert Kaminski, a telecom analyst at Capital Alpha Partners.
+
+During the campaign, Trump vowed to "eliminate our most intrusive regulations" and "reform the entire regulatory code." He has singled out net neutrality as a "top down power grab," predicting it would allow the government to censor websites.
+
+Congressional Republicans have taken aim at net neutrality as well, setting the stage for a concerted effort by Trump and his House and Senate allies to undermine the policy. And because the government's consumer privacy policies draw their power from net neutrality, they are likely to fall as well if conservatives successfully gut the rules.
+
+The forecast comes as a deep blow to Silicon Valley and the tech industry, many of whose executives had openly backed Hillary Clinton in the race for the White House.
+
+"I am surprised and disappointed," said Steve Case, the co-founder of AOL -- even as other leaders, such as Box chief executive Aaron Levie, said they hoped Trump had been lying about his proposed policies. Levie has been an outspoken critic of Trump, saying his economic agenda risks undermining innovation in technology and transportation.
+
+It's unlikely Trump was misleading the public, according to policy and business analysts. The new administration, they say, will instead delete from history the Federal Communications Commission's unprecedented regulations for Internet providers. An agency spokesperson declined to comment.
+
+At first, Trump's FCC may simply decide not to enforce the rules. But soon they would take formal steps to strike the rules from the books, said an FCC official who spoke on condition of anonymity in order to speak more freely.
+
+"They could potentially blow everything up fairly quickly," said the official, who added that any vote to overturn net neutrality could be met with a lawsuit filed by supporters of the rules.
+
+Under the current net neutrality rules, which were upheld by a court in a separate legal proceeding this year, it is illegal for Internet providers such as Comcast and AT&T to put up barriers to the websites consumers want to reach. Providers cannot block or slow videos, for instance, in order to favor email traffic. And they cannot demand special payments from website operators just so that the sites' content can reach Internet users.
+
+The FCC's newly passed privacy rules, meanwhile, force Internet providers to give consumers a say in how their most sensitive personal data is used and shared. As providers increasingly realize their business depends on more than simply selling Internet access, many have moved to collect and analyze their customers' app usage, browsing history, mobile location and other information in order to sell targeted advertising.
+
+Both federal policies were considered landmark measures, because the nation's top telecom and cable regulator had never before imposed such stringent obligations on Internet providers. With the Internet now a dominant communications network that allows Americans to find jobs, seek education and conduct commerce, that platform needed to be protected from anticompetitive behavior, regulators warned. That many Americans have only a couple of choices at best has made the FCC's mission more urgent, its Democratic chairman, Tom Wheeler, has said.
+
+"That is what economists call a duopoly," Wheeler said in a 2014 speech.
+
+Wheeler and the commission's two other liberal commissioners rammed the policies through over stiff Republican opposition. Conservatives reserved particular ire for net neutrality, which Sen. Ted Cruz (R-Tex.) labeled "Obamacare for the Internet." Like the signature health care law, net neutrality has been subject to extensive litigation; both are attempts by the government to address a perceived market failure with a complex regulatory regime.
+
+That comparison may gain even more relevance now as the GOP prepares to repeal Obamacare -- and take net neutrality along with it.
+
+"Expect the Trump FCC to hit the ground running quickly," said Berin Szoka, president of the right-leaning think tank TechFreedom.
+
+Trump is expected to appoint a Republican FCC chair in 2017 who could vote to roll back Wheeler's decisions with the support of the agency's two other conservatives, Ajit Pai and Michael O'Rielly. (Both declined to comment.) It is still unclear whom Trump may nominate as chair, and a Trump spokesman did not immediately respond to a request for comment.
+
+Democrats could attempt to mount a defense by seeking congressional legislation that would enshrine the principles, if not the language, of the net neutrality rules in federal law. Consumer advocates, meanwhile, vowed to defend the privacy regulations from attack.
+
+"We expect to aggressively fight any attempt to allow AT&T, Comcast and other giant ISPs to spy on Americans," said Jeffrey Chester, executive director of the Center for Digital Democracy. "We hope that the new administration supports consumer privacy rules, including as a key component of ensuring a competitive marketplace."
+
+With Republicans in control of all three branches of government, however, there is little incentive for a deal, analysts said.
+
+In the end, whomever takes the helm at the FCC could shatter a system that until now had largely benefited Web companies over network operators.
+
+"For a while, the joke was that it's not the FCC, it's the NCC -- the Netflix Communications Commission," said Roger Entner, a wireless analyst at Recon Analytics. "Everything Netflix wanted, it basically got. It's hard to imagine [under Trump] they'll get the same benevolent consideration."

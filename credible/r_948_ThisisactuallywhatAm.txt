@@ -1,0 +1,29 @@
+The GOP scored 33 more seats in the House this election even though Democrats earned a million more votes in House races. Professor Jeremy Mayer says gerrymandering distorts democracy. (The Fold/The Washington Post)
+
+In his State of the Union speech, President Obama called on lawmakers and the public to take a number of steps "to change the system to reflect our better selves" for "a better politics." The top item on that list was to end partisan gerrymandering: "we have to end the practice of drawing our congressional districts so that politicians can pick their voters, and not the other way around," Obama said.
+
+In most states, state legislatures draw the district boundaries that determine how many delegates the state sends to the U.S. Congress, as well as the general partisan make-up of that delegation. State legislatures are partisan beasts, and if one party is in control of the process they can draw boundaries to give themselves a numeric advantage over their opponents in Congress. This process is called gerrymandering.
+
+The process of re-drawing district lines to give an advantage to one party over another is called "gerrymandering". Here's how it works. (Daron Taylor/The Washington Post)
+
+Some state legislatures are more brazen about the process than others. Maryland's districts, drawn by Democrats, are one particularly egregious example. North Carolina's, drawn by Republicans, are another. Advocates of reform have proposed various solutions to the problem over the years. In some states, redistricting is put in the hands of an independent commission. In others, lengthy court battles are playing out to draw the districts more fairly.
+
+But a fundamental problem with district-drawing still remains: as long as humans are drawing the lines, there's a danger of bias and self-interest to creep into the process. There is another way, however: we could simply let computers do the drawing for us.
+
+From a technological standpoint it's fairly straightforward -- a software engineer in Massachusetts named Brian Olson wrote an algorithm to do it in his spare time. As I described it in 2014, Olson's algorithm creates "optimally compact" equal-population congressional districts in each state, based on 2010 census data. It draws districts that respect the boundaries of census blocks, which are the smallest geographic units used by the Census Bureau. This ensures that the district boundaries reflect actual neighborhoods and don't, say, cut an arbitrary line through somebody's house."
+
+To see what this looks like in practice, compare this map of our current congressional districts (top) with one we stitched together from Olson's output (bottom).
+
+Big difference, isn't it? You can check out a larger version of the compacted map here. Rather than a confusing snarl of interlocked districts, you have neat, trim boundaries that make intuitive sense. Here are some individual state comparisons I made back in 2014 that let you see some more of the detail:
+
+Algorithms like this one prioritize compactness -- that is, ensuring that voters are geographically close together. One of the telltale signs of gerrymandering is dramatically non-compact districts that squiggle and squirm out in all different directions -- evidence of lawmakers trying to bring far-flung voters into a single district in order to achieve the partisan mix that best favors their party. Or, as Obama said: districts that let politicians pick their voters, rather than the other way around.
+
+Many political scientists are skeptical about the merits of drawing districts based on compactness. Their general argument is that districts are ideally based on communities of interest -- people who share a common demography, culture, class, etc. There's no particular reason, they say, that grouping voters by geographic proximity ensures this coherent community any more than drawing lines according to any other metric. Moreover, algorithms can be biased too.
+
+It's a point well-taken. But "community of interest" is an incredibly squishy term. You can define it pretty much however you want. As I wrote in 2014, if you're a politician in search of a figleaf justification for putting voters from disparate corners of the state into the same congressional district, you can always find one. Communities of interest are a great ideal, but in practice they're so fuzzy that they open the door to all manner of redistricting shenanigans, as we've seen.
+
+The main obstacles to automated redistricting are legal. For starters, the Voting Rights Act mandates that in some states, race needs to be a factor in redistricting to ensure that minority voters are represented in Congress. Again: a nice idea. But there's a tradeoff: packing all your minority voters into one district diminishes their clout everywhere else. We've seen this in the real world in Florida: the 5th District was originally drawn as a majority-minority district by Democrats. But Republicans saw fit to keep it that way in subsequent years, because it gave black voters less power in the surrounding districts.
+
+In the end, the prospect of an open, transparent algorithm drawing districts based on population and compactness may be an improvement upon the status quo, where politicians draw the boundaries that best serve their interests. Of course, the chances of this ever becoming reality are slim: doing so would require state legislators to voluntarily cede their redistricting powers to a computer program. And if there's anything lawmakers dislike, it's giving up power.
+
+Laris Karklis contributed to this story.

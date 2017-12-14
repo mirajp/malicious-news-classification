@@ -1,0 +1,51 @@
+When noted human rights activist Ahmed Mansoor recently began receiving mysterious text messages promising to detail abuses inside prisons in the United Arab Emirates, it wasn't a topic completely out of the ordinary, considering his line of work.
+
+However, his suspicions were raised by the text messages, he told ABC News in a Skype interview from the UAE, because he had been the victim of several other hacking attacks in recent years. Mansoor, who last year was the Martin Ennals Award Laureate, a top recognition in the field of human rights campaigning, was arrested in 2011 and spent eight months in prison in what he said was a politically motivated effort to discredit him.
+
+Little did he know, however, that the text messages that first arrived on Aug. 10 and then through Aug. 11 would lead to the discovery of what experts called unprecedented vulnerabilities in Apple's iOS operating system.
+
+He took screenshots of the message and sent them to his friend on the other side of the world, Bill Marczak, a senior research fellow with Citizen Lab, which conducts cybersecurity research.
+
+The 28-year-old Berkeley, California, resident had been working on the computer late into the evening, and decided to take a quick look at his phone before hitting the sack at about 1:30 a.m.
+
+"Immediately, when I saw those messages [from Mansoor] it clicked in my brain and I thought, 'I've seen those websites before!'" Marczak told ABC News.
+
+Marczak said that he and his colleagues have been compiling a list of websites that are associated with clients of the Israeli software firm NSO Group, which Citizen Lab and cybersecurity firm Lookout say have developed a spyware package called Pegasus.
+
+An NSO Group official told ABC News that the firm developed software "that helps them combat terror and crime," and that it sells the software "only to authorized governmental agencies."
+
+The spokesman, Zamir Dahbash, said that NSO Group "has no knowledge of and cannot confirm" the security firms' allegations. However, he noted in an email that "the company does NOT operate any of its systems."
+
+Marczak said believes he has a list of around 200 sites that are deployments of NSO Group's clients. The sites, he explained, were used to dupe hacking victims into downloading malicious software onto their phones, allowing hackers to take control.
+
+While Marczak said he had long suspected the sites hosted the malware, he did not, until receiving Mansoor's messages, have a specific link to prove it.
+
+Working through the night, Marczak recalled, he and his colleague John Scott-Railton downloaded the spyware onto a dummy iPhone, from which they monitored all the data that was sent and received.
+
+"We basically set up a test phone. We connected it to the internet through another computer that was logging everything sent and received by the phone," he said.
+
+Transcribing from Mansoor's screenshot, they typed the link into the dummy iPhone's Safari browser.
+
+"For about 10 seconds, Safari was just blank, and then after 10 seconds the Safari app closed -- it just exited. We saw nothing further on the phone screen, but meanwhile the phone, according to our logging, was sending and receiving a lot of information. It appeared to be downloading and installing software from the internet," Marczak recalled.
+
+The malware was about 2.5 megabytes in size when pulled down from the internet, and about 5 megabytes when uncompressed, he said.
+
+"To see it in action was really, really incredible and fascinating, and just seeing the fact that once we clicked on this link once in this text message, that was enough," he said.
+
+In fact, what he found was unprecedented and has never been seen before.
+
+"This was the most serious vulnerability for iPhone that we've seen in the wild," Marczak said. "What made this vulnerability especially serious was the fact that it was triggered by a single click -- or a single tap -- on a link that could infect your phone. That's not something we've seen before for iPhones."
+
+Other experts agreed.
+
+"This is the only public disclosure of a one-click remote jailbreak of a modern Apple device. And it's the first time we've ever seen this type of exploit used against real targets to steal actual information," Lookout's Vice President for Security Research Mike Murray told ABC News in an email. "Pegasus is amazingly complex and sophisticated ... everything you have on your phone is compromised once this spyware takes hold."
+
+The researchers notified Apple of the vulnerabilities on Aug. 15, and the tech giant released a software update to address the issues on Thursday.
+
+Marczak said that the researchers aren't sure who was attempting to compromise Mansoor's phone.
+
+"In this case we weren't able to trace it back to the operator. Whoever was operating it, they were using servers in the cloud. These were servers that they had rented in the United States," Marczak said. "Presumably these servers were just proxying data back to whoever was trying to spy on Mansoor."
+
+He later told ABC News the rented U.S. servers belonged to Amazon, which sells server use for legitimate individual, business and research use around the world.
+
+In a statement, an Amazon Web Services spokesperson said: "AWS's terms are very clear about the misuse of our services, and we employ a variety of measures to detect and address misuse. When we find misuse, we take action quickly and shut it down. The activity being reported is not currently happening on AWS."

@@ -1,0 +1,23 @@
+Uber today announced a partnership with Volvo that will put some of the latest self-driving technology on the streets of Pittsburgh.
+
+Over the next couple of weeks, the company will deploy Volvo XC90s equipped with level 3 autonomy -- cars capable of accelerating, braking and steering under certain conditions but requiring human drivers poised to intervene if the technology fails -- giving some Pittsburgh riders the chance to go for a hands-free spin free of charge.
+
+These Ubers, which are opt-in only, will come with a human driver, dubbed a "copilot" by Uber, ready to step in at any time.
+
+Together, Uber and Volvo have pledged $300 million for the project. (Uber is also deploying Ford Focuses with similar technology.)
+
+By working with Volvo, "we'll get to the future faster than going it alone,"Uber CEO Travis Kalanick wrote in a blog post.
+
+In addition to the Volvo partnership, Uber today announced the acquisition of Otto, a self-driving truck company.
+
+"Otto plus Uber is a dream team," Kalanick wrote. "Together, we now have one of the strongest autonomous engineering groups in the world; self-driving trucks and cars that are already on the road thanks to Otto and Uber's Advanced Technologies Center in Pittsburgh; the practical experience that comes from running ridesharing and delivery services in hundreds of cities."
+
+Uber isn't the only ride-sharing app to enter the autonomous arena.
+
+In January, competitor Lyft announced a $500 partnership with GM to develop driverless taxis. And Tesla's Elon Musk last month announced that developing autonomous ride sharing was part of his latest "master plan."
+
+But the autonomous car landscape isn't all hands-free bliss.
+
+Tesla's existing autonomous technology, for example, faced intense scrutiny following two collisions involving autopilot, a driver-assist program that uses cameras and radar to automatically change lanes, navigate traffic, and brake to avoid collision.
+
+A 40-year-old Tesla enthusiast was killed in Florida in May when his Model S, driving on autopilot, crashed into a tractor-trailer it had failed to detect in its path. And earlier this month, a Model X on autopilot swerved off the road and struck a cable rail in Montana. (In that case, no one was injured, and Tesla says the driver did not have his hand on the wheel despite repeated alerts from the vehicle.)

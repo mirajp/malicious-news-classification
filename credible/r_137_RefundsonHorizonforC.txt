@@ -1,0 +1,23 @@
+A federal judge has found Amazon liable for billing customers for unauthorized in-app charges made by their children.
+
+The Federal Trade Commission brought a lawsuit against the Seattle company as well as Apple and Google in 2014, after the FTC said that it had received countless complaints from consumers about "surprise" in-app purchases made by their kids.
+
+Apple and Google settled with the FTC in 2014, agreeing to pay back what amounted to a total of $50 million to customers. Amazon, however, opted not to settle.
+
+On Wednesday, the court sided with the FTC.
+
+"We're particularly concerned when you're dealing with supposedly free apps that children were playing and failure to even tell parents that there would be charges in those apps," said Jessica Rich, director of the agency's Bureau of Consumer Protection. "If parents don't even know about these charges and kids can keep pushing buttons and playing games, they can rack up an enormous number. ... One family reported that their child ran up $358 in unauthorized charges."
+
+The FTC alleged in 2014 that when Amazon introduced in-app charges to the Amazon App Store in November 2011, the company did not require passwords for in-app charges, such as the use of virtual currency in children's games. Amazon, Google and Apple now require passwords to avoid unauthorized billing.
+
+In 2014, Amazon wrote a letter to FTC Chairwoman Edith Ramirez, calling the charges a "disappointment."
+
+"The Commission's unwillingness to depart from the precedent it set with Apple despite our very different facts leaves us no choice but to defend our approach in court," wrote Andrew C. DeVore, Amazon's general counsel. "And as we have made clear from the outset of your inquiry, our experience at launch was responsible, customer-focused, and lawful, including prominent notice of in-app purchasing, effective parental controls, real-time notice of every in-app purchase, and world-class customer service."
+
+The FTC's complaint against Amazon sought an unspecified amount of money in refunds for Amazon customers. The judge asked the FTC and Amazon to provide information on how much the company owed its customers, according to the Associated Press.
+
+"We've charged that it actually added up to millions of dollars when you add up all the charges and all the consumers that were affected," Rich said Wednesday. "We want to put as much money back in consumer's pockets and our evidence when we brought this case was that it was in the millions."
+
+Amazon declined to comment on the ruling.
+
+ABC News' Rachel Humphries contributed to this report.

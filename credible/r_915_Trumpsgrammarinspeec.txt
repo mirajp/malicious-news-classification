@@ -1,0 +1,45 @@
+
+
+Republican presidential candidate Donald Trump speaks in St. Louis earlier this month. (Seth Perlman/AP)
+
+Eloquence is a trait valued by debate team coaches but not necessarily needed for the White House. Though their supporters will always defend them, George Washington and George W. Bush are just two of many presidents considered poor public speakers -- and there have been many commanders in chief in the two centuries between them who were not necessarily golden-tongued.
+
+Now, an academic paper has put some presidents and political candidates' language on trial. "A Readability Analysis of Campaign Speeches From the 2016 US Presidential Campaign," released this week by Carnegie Mellon University, analyzed stump speeches to measure their "readability" -- the reading level of an address, ranked from first grade to 12th grade. And, according to a summary from the university, the study found "most candidates using words and grammar typical of students in grades 6-8, though Donald Trump tends to lag behind the others."
+
+[Trump supporters have the worst Facebook grammar, study finds]
+
+The story was more complicated than "Donald Trump can't talk good," however. First, the researchers needed a way to measure readability.
+
+"It is based on the observation that some words (and grammatical structures) appear with greater frequency at one grade level than another," Maxine Eskenazi, a scientist in the university's Language Technologies Institute, and Elliot Schumacher, a graduate student, wrote. "For example, we would expect that we could see the word 'win' fairly frequently in third grade documents while the word 'successful' would be more frequent in, say, seventh grade documents. We would not see dependent clauses very often at the second grade level whereas they would be quite frequent at the seventh grade level."
+
+Then, they needed some speeches to analyze.
+
+"A database was collected containing documents from each of the [then] five current presidential candidates: Ted Cruz (5), Hillary Clinton (7), Marco Rubio (6), Bernie Sanders (6), Donald Trump (8)," the paper read. "... They range from the declaration of candidacy speech to campaign trail speeches to victory speeches to defeat speeches." What about a historical comparison? "We also analyzed the readability of Lincoln's Gettysburg Address ... and a speech from Barack Obama, George W. Bush, Bill Clinton and Ronald Reagan," the researchers wrote.
+
+The results showed that the level of our political discourse had deteriorated -- partly because of Trump.
+
+"Speeches by past presidents while on campaign and the Gettysburg Address were at least at the eighth grade level," the paper read. "The candidates' speeches mostly went from seventh grade level for Donald Trump to tenth grade level for Bernie Sanders."
+
+The researchers also tried to measure "the degree to which the candidate changes their choice of words from one speech to another." The result appeared to confirm the perception of Hillary Clinton as a chameleon.
+
+"[Change] could reflect an effort to take into account the different audiences or circumstances (winning or concession speech in a state, for example)," they wrote. "We can see that Hilary Clinton has the highest standard deviation and so the biggest change of choice of words from one speech to another, while Ted Cruz varies the least in his choices."
+
+Up next was a look at politicians' grammar.
+
+"We see that George W. Bush had the lowest level and Abraham Lincoln the highest," the paper read. "Amongst the candidates, levels are between sixth and seventh grades except for Donald Trump (grade 5.7)."
+
+A summary of the study put this result in another light. The linguistic top of the pops, it turned out, was the Gettysburg Address -- which came from the pen of a man with little formal schooling.
+
+"In terms of grammar, none of the presidents and presidential candidates could compare with Lincoln's Gettysburg Address -- an admittedly high standard, with grammar well above the 10th grade level," the summary read. "The current candidates generally had scores between 6th and 7th grades, with Trump just below 6th grade level. President Bush scored at a 5th grade level."
+
+
+
+Vocabulary and Grammatical Comparison (Carnegie Mellon University)
+
+The researchers, who used a measure of readability meant to account for differences between written and spoken language, noted that evaluating public speakers is not easy.
+
+"Assessing the readability of campaign speeches is a little tricky because most measures are geared to the written word, yet text is very different from the spoken word," Eskenazi said in a statement. "When we speak, we usually use less structured language with shorter sentences."
+
+Trump, for one, seems to intuit that many of his supporters are not grammarians.
+
+"I love the poorly educated!" he said last month.

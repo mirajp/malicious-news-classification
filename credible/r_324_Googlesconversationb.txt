@@ -1,0 +1,137 @@
+Media caption WATCH: Google's announcements in 90 seconds
+
+Google has announced a conversation-based tool to control smartphones, smartwatches and other devices.
+
+Google Assistant can be used to find information, play media and carry out tasks - such as booking cinema tickets - via a back-and-forth chat between the user and the software.
+
+The firm also announced a voice-activated device with a built-in speaker called Google Home to deliver the tech to living rooms.
+
+It will compete with Amazon's Echo.
+
+Amazon launched its own dialogue-based smart home device in 2014, which is powered by the firm's proprietary virtual assistant Alexa.
+
+Image copyright Google Image caption The Google Home speaker will compete with Amazon's Echo when it goes on sale later in 2016
+
+Google's chief executive Sundar Pichai credited Amazon with pioneering the idea.
+
+His announcement was made at the start of the firm's IO developers' conference in California.
+
+"Google's new Assistant is its attempt to bring together a set of disparate efforts that have lacked a coherent brand," commented Jan Dawson from Jackdaw Research.
+
+"Referring to the combined functions of Google Now, OK Google, and other elements has been tough in the past, because there wasn't a single name for this functionality.
+
+Media caption WATCH: What happens at IO?
+
+"This should help Google compete more effectively both with Amazon's Echo device but also with better-branded personal assistants like Siri, Cortana, and Alexa."
+
+Google Assistant can link into third-party services including Ticketmaster, Spotify, Uber and Whatsapp. But Alexa already works with many more.
+
+"Amazon should take note of Google Home given Google's search and artificial intelligence capability, but Alexa has an early lead in third-party integration," noted Geoff Blaber from the CCS Insight consultancy.
+
+Chat app
+
+Image copyright Google Image caption Allo keeps watch over its users' conversations and attempts to make relevant suggestions
+
+Google Assistant also plays a role in a new chat app called Allo, in which it can make suggestions based on what the user is talking about with their friends.
+
+One executive demonstrated the AI tool proposing a restaurant to visit when two users discussed wanting to eat Italian food.
+
+Allo's other unusual feature is that it can provide replies on a user's behalf.
+
+This includes commenting on pictures sent by friends, thanks to its use of image recognition algorithms.
+
+The company said the suggestions should improve the more people use the app.
+
+Image copyright Google Image caption Allo can suggest things to say when a friend sends a picture of their pet
+
+A partner video chat app called Duo was also unveiled. A distinguishing feature is a live view of the caller, which is shown on the recipient's screen before they decide whether or not to answer.
+
+Virtual reality
+
+In the past, Google IO has provided a first look at the next version of smartphone operating system Android.
+
+But this year many details about Android N were released weeks ahead of the event.
+
+Image copyright Google Image caption Google is hosting this year's IO at an outside venue near to its California headquarters
+
+However, there were new details about a forthcoming virtual reality feature called Daydream.
+
+It introduces a dedicated VR app store and provides a set of specifications that devices must meet in order to provide a lag time of less than 20 milliseconds between movements of the user's body and on-screen responses.
+
+Daydream also includes a reference design for a VR headset mount - into which a variety of smartphones could be fitted - and a controller - a handheld device featuring a trackpad and two buttons.
+
+Google is not making either, but hopes that manufacturers will put the designs into production.
+
+"One of the worst things about Samsung's Gear VR [headset] is the control system - Daydream looks much better," said Mr Dawson.
+
+Image copyright Google Image caption Google has produced a VR controller 'reference design' for device manufacturers
+
+The firm also announced an upgrade to its smartwatch operating system Android Wear.
+
+It now supports "standalone" apps, meaning the software can go online via wi-fi or a watch's own 3G/4G connection, rather than having to link up via a smartphone.
+
+This should make apps run faster and addresses a problem that had also plagued apps on the original version of Apple's rival Watch OS.
+
+In addition, the updated Android Wear provides ways to reply to messages beyond speaking into the device's microphone.
+
+Users will able to:
+
+select from a choice of "smart reply" suggestions
+
+draw letters on the screen that then get converted into text
+
+type in words via a small keyboard
+
+How practical this will be is unclear, particularly as an on-stage demo went wrong.
+
+Image copyright Google Image caption Smartwatch owners get three new ways to respond to messages on Android Wear 2.0
+
+"Android Wear 2.0 is a reset for Google's wearables platform," said Mr Blaber.
+
+"Having learned lessons from the first generation, Google and partners will hope 2.0 will kick start wearables adoption and usage."
+
+Analysis: Dave Lee, North America technology reporter
+
+Image copyright Google
+
+Very impressive, Google, but it feels like you're a little behind.
+
+Facebook already has a smart chat app. Amazon already has a cool assistant you can talk to in the kitchen.
+
+And Oculus and Samsung have the Gear VR, a smartphone-powered headset.
+
+So, the task for Google is both straightforward and enormous. Do all that, just better than everyone else.
+
+Google's head-start in smart messaging is that its algorithm is by far and away the smartest.
+
+And unlike Samsung's VR headset that needs a Galaxy phone, Google's Daydream mount is designed to work with a range of handsets.
+
+The biggest cheer, mind you, wasn't for any of the new products.
+
+Instead, it was news of a fresh range of emoji depicting female professionals that drew delight from the audience here.
+
+Instant apps
+
+Google rounded off IO's first event of the week with a look at a feature that could shake up one of Android's key principles.
+
+Rather than making users install an additional app each time they want to access a new service, the firm wants to make it possible to quickly download just the code needed to carry out a specific task.
+
+"We are evolving Android apps to run instantly without installation," explained Google executive Ellie Powers.
+
+"We call this Android Instant Apps.
+
+"As a developer... you'll modularise your app and Google Play will download only the parts that are needed on the fly."
+
+Examples given included a parking meter app that automatically presents its payment interface when a motorist leaves their car at a stand, and a news app that streams its videos when a user clicks a link.
+
+Image copyright Google Image caption Google suggested a parking service could present its payment screen without requiring the full app to be installed
+
+The idea echoes the Scopes found in Ubuntu's smartphone OS and Microsoft's App-V facility, which both aim to provide access to third-party services without making users download full apps.
+
+Analysts had mixed feelings about the proposition.
+
+"Android Instant Apps [are the] first real signs of the post-app era," tweeted Gartner's Brian Blau.
+
+But Creative Strategies' Carolina Milanesi wrote: "Is it like a smart preview that will get me to install the apps I don't have?"
+
+And Moor Insights' Patrick Moorhead added: "When I think about Android Instant Apps, why is the first thing I think of [a] security panic?"
