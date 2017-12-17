@@ -7,14 +7,14 @@ import articleDateExtractor
 
 Article = newspaper.Article
 
-realLabel = '0'
-fakeLabel = '1'
+credibleLabel = '0'
+maliciousLabel = '1'
 
 
 SRC_FILE = ?
 OUTPUT_FILE = ?
-#SRC_FILE_CLASS = fakeLabel
-#SRC_FILE_CLASS = realLabel
+#SRC_FILE_CLASS = maliciousLabel
+#SRC_FILE_CLASS = credibleLabel
 SRC_FILE_CLASS = ?
 SRC_FILE_URL_INDEX = ?
 
@@ -48,10 +48,10 @@ def addArticle(featureClassList, prefix, articleLabel, articleURL, articleObj):
     articleTitle = re.sub(r'[\'\,\.\"\\\/\!\@\$\%\&\*]+', '', articleTitle)
     filename = prefix + '_' + re.sub(r'\W+', '', articleTitle)
     filepath = filename[:24] + '.txt'
-    if (articleLabel == '0'):
-        filepath = './real/' + 'r_' + filepath
+    if (articleLabel == credibleLabel):
+        filepath = './credible/' + 'r_' + filepath
     else:
-        filepath = './fake/' + 'f_' + filepath
+        filepath = './malicious/' + 'f_' + filepath
     
     saveArticleContents(filepath, articleText)
     
