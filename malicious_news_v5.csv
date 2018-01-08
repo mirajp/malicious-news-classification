@@ -1,4 +1,4 @@
-# label,#,URL,filepath,title,authors_attributed,num_characters,num_words,date,google_sentiment_score,google_sentiment_magnitude,msft_sentiment_score
+label,#,URL,filepath,title,authors_attributed,num_characters,num_words,date,google_sentiment_score,google_sentiment_magnitude,msft_sentiment_score
 1,641,http://www.conservativeintel.com/2016/10/08/breaking-hillary-calls-bernie-supporters-bucket-losers/,./malicious/f_641_HillaryCallsBernieSu.txt,Hillary Calls Bernie Supporters “Bucket Of Losers” In Secret Goldman Sachs Speech,1,240,40,6/15/2015,-0.3,0.6,0.753251479
 1,318,http://www.infowars.com/pharmaceutical-exec-hillary-clinton-has-parkinsons-disease/,./malicious/f_318_PharmaceuticalExecHi.txt,Pharmaceutical Exec: Hillary Clinton Has Parkinsons Disease  Alex Jones Infowars: Theres a war on for your mind,1,4026,603,2/2/2016,-0.1,9.9,0
 1,872,http://www.yournewswire.com/hillary-clinton-ordered-waco-massacre-leading-to-76-deaths/,./malicious/f_872_HillaryClintonOrdere.txt,Hillary Clinton Ordered Waco Massacre Leading To 76 Deaths,0,3016,500,3/5/2016,0,8.7,0
