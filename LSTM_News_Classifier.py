@@ -1,4 +1,5 @@
 import os
+import sys
 import numpy as np
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
@@ -9,9 +10,10 @@ from keras.preprocessing import sequence
 from sklearn.model_selection import GridSearchCV
 from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.metrics import classification_report, accuracy_score
-import fakeandrealnews
+from NewsArticleDataset import NewsArticleDataset
 
-GLOVE_DIR = "./glove.6B/"
+GLOVE_DIR = "./glove.6b/"
+GLOVE_DIR = GLOVE_DIR.replace("./", sys.path[0] + "/")
 GLOVE_TEXTFILE = os.path.join(GLOVE_DIR, "glove.6B.100d.txt")
 
 MAX_SEQUENCE_LENGTH = 200
@@ -37,13 +39,16 @@ bestBatchSize = 32
 
 # Load the words features
 print("Loading the training, testing, validation datasets...")
-(header, trainFeatures, trainLabels, testFeatures, testLabels, validationFeatures, validationLabels) = fakeandrealnews.getTrainTestValSet(VALIDATION_SPLIT)
+ArticleDataset = NewsArticleDataset("./credible_news_v5.csv", "./malicious_news_v5.csv")
+
+# header = [label, #, URL, filepath, title, authors_attributed, num_characters, num_words, date, google_sentiment_score, google_sentiment_magnitude, msft_sentiment_score]
+header = ArticleDataset.getHeader()
+(trainFeatures, trainLabels, testFeatures, testLabels, tuneFeatures, tuneLabels) = ArticleDataset.getTrainTuneTestSets("10/13/2016", VALIDATION_SPLIT)
 
 trainLabels = (trainLabels==1).astype(np.int32)
 testLabels = (testLabels==1).astype(np.int32)
-validationLabels = (validationLabels==1).astype(np.int32)
+tuneLabels = (tuneLabels==1).astype(np.int32)
 
-# header = [label, #, URL, filepath, title, authors_attributed, num_characters, num_words, date, google_sentiment_score, google_sentiment_magnitude, msft_sentiment_score]
 textfileIndex = header.index("filepath")
 
 # Read all of the articles into memory
@@ -58,7 +63,7 @@ def loadDatasetArticles(dataset, fileIndex):
 print("Loading the articles...")
 trainingTexts = loadDatasetArticles(trainFeatures, textfileIndex)
 testingTexts = loadDatasetArticles(testFeatures, textfileIndex)
-validationTexts = loadDatasetArticles(validationFeatures, textfileIndex)
+validationTexts = loadDatasetArticles(tuneFeatures, textfileIndex)
 print("Found %d training texts, %d testing texts, %d validation texts" % (len(trainingTexts), len(testingTexts), len(validationTexts)))
 
 
@@ -71,6 +76,7 @@ word_index = tokenizer.word_index
 trainData = pad_sequences(tokenizer.texts_to_sequences(trainingTexts), maxlen=MAX_SEQUENCE_LENGTH)
 testData = pad_sequences(tokenizer.texts_to_sequences(testingTexts), maxlen=MAX_SEQUENCE_LENGTH)
 validationData = pad_sequences(tokenizer.texts_to_sequences(validationTexts), maxlen=MAX_SEQUENCE_LENGTH)
+
 
 # Build a mapping of words to their word embedding vector 
 print("Loading and indexing word vectors...")
@@ -98,6 +104,7 @@ for word, i in word_index.items():
         # words not found in embedding index will be all-zeros.
         embedding_matrix[i] = embedding_vector
 
+
 # Load pre-trained word embeddings into an Embedding layer
 # trainable = False --> keep the embeddings fixed
 embeddingLayer = Embedding(num_words, EMBEDDING_DIM, weights=[embedding_matrix], input_length=MAX_SEQUENCE_LENGTH, trainable=TRAINABLE)
@@ -119,11 +126,12 @@ def createModel():
     return model
 
 
-batch_size = [24, 32, 48, 64]
-epochs = [7, 8, 10, 12, 15]
-verbose = [0] # Silence grid search epochs' output
+batch_size = [24]
+epochs = [8]
+#verbose = [0] # Silence the grid search
+verbose = [1] # Show bar graphs of progress from the grid search output during each epoch
 
-param_grid = dict(batch_size=batch_size, epochs=epochs, verbose=verbose, validation_data=[(validationData, validationLabels)])
+param_grid = dict(batch_size=batch_size, epochs=epochs, verbose=verbose, validation_data=[(validationData, tuneLabels)])
 model = KerasClassifier(build_fn=createModel)
 clf = GridSearchCV(estimator=model, param_grid=param_grid, n_jobs=-1)
 
@@ -134,9 +142,8 @@ bestEpochs = grid_result.best_params_["epochs"]
 bestBatchSize = grid_result.best_params_["batch_size"]
 
 print("Training model with 'best params': num_epochs = " + str(bestEpochs) + ", batch_size = " + str(bestBatchSize) + ", NUM_UNITS = " + str(NUM_UNITS) + ", dropout = " + str(DROPOUT_RATE))
-
 model = createModel()
-model.fit(trainData, trainLabels, batch_size=bestBatchSize, epochs=bestEpochs, validation_data=(validationData, validationLabels))
+model.fit(trainData, trainLabels, batch_size=bestBatchSize, epochs=bestEpochs, validation_data=(validationData, tuneLabels))
 
 print("Evaluating model...")
 scores = model.evaluate(testData, testLabels, verbose=0)
@@ -152,6 +159,6 @@ for metricIter in xrange(0, len(scores)):
     print("Models's " + metricName + " = " + str(metricValue))
     
 target_names = ["credible", "malicious"]
+
 print("Confusion matrix:")
 print(classification_report(testLabels, predictions, target_names=target_names))
-
