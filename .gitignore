@@ -99,3 +99,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# GloVe embedding vector file
+./glove.6b/glove.*
