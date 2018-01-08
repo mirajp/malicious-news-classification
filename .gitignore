@@ -101,4 +101,8 @@ ENV/
 .mypy_cache/
 
 # GloVe embedding vector file
-./glove.6b/glove.*
+glove.6b/*
+
+# vscode project files
+.vscode/*
+
